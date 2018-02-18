@@ -20,7 +20,7 @@ A step by step series of examples that tell you have to get a development env ru
 
 **Courses**
 **Exercizes**
-- [First Steps in Node.js](http;//)
+- [First Steps in Node.js](https://github.com/SylvainWT/EmergingTechnologies/blob/master/01-exercizes/first_steps_in_nodejs.md)
 **Project**
 
 
