@@ -111,9 +111,33 @@ Developers now expect:
 **This is all what this journey is about**
 
 ## A brief history of Cloud
+### Some Definitions
+
+**Cloud :** in the IT acception, can be seen a style to deliver computing capabilities under several promises to external customers using Internet technologies
+
+
+**Cloud Provider  :** The party that provides cloud-based IT resources is the cloud provider.(IBM Cloud in these sessions)
+
+**Cloud Consumer  :** The party that uses cloud-based IT resources is the cloud consumer. (YOU in these sessions)
+
+**Cloud Service  :**  Any IT resource that is made remotely accessible via a cloud. (WHAT you will use in these sessions)
+
+### Since when servers, software, infrastructure,... are represented by ... a cloud ?
+
+hmmmm, tricky question.
+By definition,
+
+>**cloud:**  _noun_
+> a mass of something such as dust or smoke that looks like a cloud: A cloud (Cambridge Dictionnary)
+
+The definition of an IT cloud is not well established. So ....
+
+**My proposition:** The term _cloud_  is commonly used to describe an consolidation of objects that visually appear from a distance as... a cloud. Early used in IT as a metaphor of the Internet in computer network diagrams as an abstraction of the underlying infrastructure it represents. As a "Cloud" it is now a bag of so many thing : Infra, Servers, Network, Capabilities, Software.....
+
 ### Technology Drivers
 
 ![IBM Logo](./img/IBM-logo-cloud-history.png)
+
 Cloud is not an ex-nihilo invention but an evolution from IT computing since the 50s.
 **1950s:** Mainframe :  a central computer accessed through 'passive' terminals
 **1970s:** Virtual Machines: Hardware is 'virtualized'. More operating system can be run in a single isolated environement (For ex. The linux VM we will use in these session)
@@ -126,7 +150,7 @@ Cloud is not an ex-nihilo invention but an evolution from IT computing since the
 **2010s** Emergence of new approach to deliver IT: IaaS, SaaS, PaaS, Containers, API Economy...
 
 ### Business Drivers
-**Capacity Planning**
+**1 - Capacity Planning**
 Capacity planning is the process of determining and fulfilling future demands of IT resources. It is summarized as the maximum amount of processes that an IT resource is capable of delivering in a given period of time.
 The challenge is to correctly balance the resources' capacity to the End user demand (Risk analysis to be done per application type):
   - Avoiding service disruption due to to small capacity
@@ -137,7 +161,7 @@ Different strategies for different risks:
 - **Lag Strategy** – No anticipation : IT resource is provision when its full capacity is reached
 - **Match Strategy** – Trade off by relying on small increments
 
-**Cost Reduction**
+**2 - Cost Reduction**
 Costs can be split in
 - **Acquisition Cost**
 - **Operating Cost**:
@@ -147,57 +171,39 @@ Costs can be split in
   - Access and security...
   - Administration (License Management...)
 
-**Support of the Digital Transformation**
+**3 - Support of the Digital Transformation**
 
-More Organizational agility is required to adapt and evolve to successfully face change caused by both internal and external factors
-
-
-### Since when are servers, software, infra, represented by ... a cloud ?
-hmmmm, tricky question.
-By definition,
->**cloud:**        _noun_
-> a mass of something such as dust or smoke that looks like a cloud: A cloud
-
-The representation of a cloud is not well established. So ....
-
-**My proposition:** The term _cloud_  is commonly used to describe an consolidation of objects that visually appear from a distance as... a cloud. Early used in IT as a metaphor of the Internet in computer network diagrams as an abstraction of the underlying infrastructure it represents. As a "Cloud" it is now a bag of so many thing : Infra, Servers, Network, Capabilities, Software.....
-
-## Some Definitions
-**Cloud Provider  :** The party that provides cloud-based IT resources is the cloud provider.(IBM Cloud in these sessions)
-
-**Cloud Consumer  :** The party that uses cloud-based IT resources is the cloud consumer. (YOU in these sessions)
-
-**Cloud Service  :**  Any IT resource that is made remotely accessible via a cloud. (WHAT you will use in these sessions)
+More organizational agility is required to adapt and evolve to successfully face change caused by both internal and external factors
 
 ## Benefits of going in the cloud
-**Reduced Investments and Proportional Costs**
-**Increased Scalability**  as clouds can instantly and dynamically allocate IT resources to cloud consumers
-**Increased Availability and Reliability**
+**1 - Reduced Investments and Proportional Costs**
+**2 - Scalability**  as clouds can instantly and dynamically allocate IT resources to cloud consumers
+**2 - Availability and Reliability**
 
 ## Challenges of going in the cloud
-**Reversibility and Portability Between Cloud Providers** What do I do if I want to change my Cloud provider ?
-**Control over my computing capabilities**  Public Clouds are centrally governed by Cloud providers
-**Security Vulnerabilities** AS we moved the data from a Private, totally mastered Datacenter to the Public/Private/Hybrid Cloud
-**Legal compliance** Depending of the location of the cloud Datacenter some legal issues can raise (such as maintaining the data within a geo)
+**1 - Reversibility and Portability Between Cloud Providers** What do I do if I want to change my Cloud provider ?
+**2 - Control over my computing capabilities**  Public Clouds are centrally governed by Cloud providers
+**3 - Security Vulnerabilities** AS we moved the data from a Private, totally mastered Datacenter to the Public/Private/Hybrid Cloud
+**4 - Legal compliance** Depending of the location of the cloud Datacenter some legal issues can raise (such as maintaining the data within a geo)
 
 
 ##The Promises (Expectations) of the Cloud
 
 Cloud in the IT acception can be seen a style to deliver computing capabilities under several promises to external customers using Internet technologies :
 
-**Instant Provisionning**
+**1 - Instant Provisionning**
   - Target end-users can provision IT capacity without administrative/human involvment
 
-**multitenancy (and resource pooling)**
+**2 - Multitenancy (and resource pooling)**
  - Different customers can consumes the same ressource exposed by the provider in total confidentiality
 
-**elasticity**
+**3 - Elasticity**
  - It is the the automated ability of a cloud to transparently scale (UP and DOWN) IT resources to map the demand/request
 
-**measured usage**
+**4 - Measured usage**
  - Usage of the platform is monitored and billing is (most of the time) aligned to the consumption of the resources
 
-**resiliency**
+**5 - Resiliency**
 - CLoud service enable architectural pattern allowing to avoid/reduce to a minimal time the potential disruption
 
 
