@@ -20,7 +20,8 @@ A step by step series of examples that tell you have to get a development env ru
 
 **Courses**
 **Exercizes**
-- [First Steps in Node.js](https://github.com/SylvainWT/EmergingTechnologies/blob/master/01-exercizes/first_steps_in_nodejs.md)
+- [First Steps in Node.js](http;//)
+-
 **Project**
 
 
@@ -38,4 +39,4 @@ A step by step series of examples that tell you have to get a development env ru
 [Follow me on LinkedIN](http://www.linkedin.com/in/sylvain-roch-wilbert)
 
 ---
-Emerging Technologies in Cloud Computing - A journey in the clouds - © Sylvain W
+Emerging Technologies in Cloud Computing - A journey in the clouds - 2018
