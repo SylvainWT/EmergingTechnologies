@@ -12,7 +12,7 @@ Several characteristics can be sketched
  - It is a continuous journey that keeps accelerating
  - Not all of them will sustain an industrial life
 
->Some decades in my life:
+Some decades in my life:
 - In **1978** :My parents have a telephone at home, with 7, 8, 10, numbers. Using it is really costly (especially WW)
 - In **1988** : We have a Minitel at home. ( "11" to have the French Citizen Directory was a key innovation , and such and evolution of the WhitePages.  btw it enabled new usage as only the first 3 minutes were free :smiley:)
 - In **1998** : I have a Mobile Phone.
@@ -70,6 +70,7 @@ The objectives of this journey is to understand how Cloud transformed IT solutio
   - Implemented in a seamless Build and Deploy approach
   - Hosted In the cloud !! (2-clicks provisioning, Scalability…)
 
+
 ### Your deliverables :
   - A project implementing what you have learned : From a provided baseline, you will be able to enrich it with as many services you want. **_The more you have, the better is is!_**
   - a 10-pager max report stating
@@ -96,9 +97,85 @@ Application Design and Delivery has been reshaped : It is about speed and choice
   - Self Service tools to address the E2E design, implementation, and run
 
 ## Developers’ expectations have evolved.
+Developers now expect:
+  - To be able to deploy updates to their applications in **seconds**
+  - To write their code in **whichever tool or language** they choose
+  - To be able to **continually integrate** working copies of code into a shared mainline at multiple points during the day
+  - To **focus on writing code**, not on the administration of servers, virtualization, operating systems, and middleware.
+  - To **“fail fast”** - or ensure applications fail immediately and visibly to speed debugging and fixes
+  - To **integrate useful APIs** into their applications
+  >who wants to write code that’s already been written and tested?
+
+  - ...
+
+**This is all what this journey is about**
+
+## A brief history of Cloud
+### Technology Drivers
+
+![IBM Logo](img\IBM-logo-cloud-history.png)
+Cloud is not an ex-nihilo invention but an evolution from IT computing since the 50s.
+**1950s:** Mainframe :  a central computer accessed through 'passive' terminals
+**1970s:** Virtual Machines: Hardware is 'virtualized'. More operating system can be run in a single isolated environement (For ex. The linux VM we will use in these session)
+**1990s:** Several distributed initiatives emerged
+  - Grid computing
+  - SaaS (Online Services)
+  - Virtuliazed Private Network (VPN) - Sharing Common Physical infrastructure in full confidentiality
+  - Service Oriented Architecture
+  - Clustering
+**2010s** Emergence of new approach to deliver IT: IaaS, SaaS, PaaS, Containers, API Economy...
+
+### Business Drivers
+**Capacity Planning**
+Capacity planning is the process of determining and fulfilling future demands of IT resources. It is summarized as the maximum amount of processes that an IT resource is capable of delivering in a given period of time.
+The challenge is to correctly balance the resources' capacity to the End user demand (Risk analysis to be done per application type):
+  - Avoiding service disruption due to to small capacity
+  - Avoiding overcapacity infrastructure that is not used.
+
+Different strategies for different risks:
+- **Lead Capacity Strategy** – Strong anticipation of the demand
+- **Lag Strategy** – No anticipation : IT resource is provision when its full capacity is reached
+- **Match Strategy** – Trade off by relying on small increments
+
+**Cost Reduction**
+Costs can be split in
+- **Acquisition Cost**
+- **Operating Cost**:
+  - Technical personnel required operate the environments
+  - Licences Costs
+  - Run Cost (Power, Cooling)
+  - Access and security...
+  - Administration (Licence Management...)
+
+**Support of the Digital Transformation**
+
+More Organizational agility is required to adapt and evolve to successfully face change caused by both internal and external factors
 
 
+### Since when are servers, software, infra, represented by ... a cloud ?
+hmmmm, tricky question.
+By definition,
+>**cloud:**        _noun_
+> a mass of something such as dust or smoke that looks like a cloud: A cloud
 
+The representation of a cloud is not well established. So ....
+
+**My proposition:** The term _cloud_  is commonly used to describe an consolidation of objects that visually appear from a distance as... a cloud. Early used in IT as a metaphor of the Internet in computer network diagrams as an abstraction of the underlying infrastructure it represents. As a "Cloud" it is now a bag of so many thing : Infra, Servers, Network, Capabilities, Software.....
+
+
+##The Promises (Expectations) of the Cloud
+
+Cloud in the IT acception can be seen a style to deliver computing capabilities under several promises to external customers using Internet technologies :
+
+of computing in which scalable and elastic IT-enabled capabilities are delivered as a service ”
+
+##References
+
+|Reference|Description|
+|---|---|
+|https://www.gartner.com   | Gartner Group - Emerging technologies - Hype Cycle |
+|https://www.ibm.com/blogs/cloud-computing/2014/03/a-brief-history-of-cloud-computing-3/   |  IBM - A brief hisoty of Cloud Computing |
+|https://dictionary.cambridge.org/fr/dictionnaire/anglais/cloud   |Cloud Definition in the Cambridge Dictionnary   |
 ___
 Emerging Technologies - Paris Dauphine
 (C) Sylvain WILBERT
