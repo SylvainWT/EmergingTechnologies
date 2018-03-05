@@ -96,7 +96,7 @@ Web and mobile has totally transformed the way we consume applications:
 Application Design and Delivery has been reshaped : It is about speed and choice ! :  
   - Self Service tools to address the E2E design, implementation, and run
 
-## Developers’ expectations have evolved.
+## Developers’ expectations have evolved.
 Developers now expect:
   - To be able to deploy updates to their applications in **seconds**
   - To write their code in **whichever tool or language** they choose
@@ -113,7 +113,7 @@ Developers now expect:
 ## A brief history of Cloud
 ### Technology Drivers
 
-![IBM Logo](img\IBM-logo-cloud-history.png)
+![IBM Logo](./img/IBM-logo-cloud-history.png)
 Cloud is not an ex-nihilo invention but an evolution from IT computing since the 50s.
 **1950s:** Mainframe :  a central computer accessed through 'passive' terminals
 **1970s:** Virtual Machines: Hardware is 'virtualized'. More operating system can be run in a single isolated environement (For ex. The linux VM we will use in these session)
@@ -142,10 +142,10 @@ Costs can be split in
 - **Acquisition Cost**
 - **Operating Cost**:
   - Technical personnel required operate the environments
-  - Licences Costs
+  - Licenses Costs
   - Run Cost (Power, Cooling)
   - Access and security...
-  - Administration (Licence Management...)
+  - Administration (License Management...)
 
 **Support of the Digital Transformation**
 
@@ -162,12 +162,49 @@ The representation of a cloud is not well established. So ....
 
 **My proposition:** The term _cloud_  is commonly used to describe an consolidation of objects that visually appear from a distance as... a cloud. Early used in IT as a metaphor of the Internet in computer network diagrams as an abstraction of the underlying infrastructure it represents. As a "Cloud" it is now a bag of so many thing : Infra, Servers, Network, Capabilities, Software.....
 
+## Some Definitions
+**Cloud Provider  :** The party that provides cloud-based IT resources is the cloud provider.(IBM Cloud in these sessions)
+
+**Cloud Consumer  :** The party that uses cloud-based IT resources is the cloud consumer. (YOU in these sessions)
+
+**Cloud Service  :**  Any IT resource that is made remotely accessible via a cloud. (WHAT you will use in these sessions)
+
+## Benefits of going in the cloud
+**Reduced Investments and Proportional Costs**
+**Increased Scalability**  as clouds can instantly and dynamically allocate IT resources to cloud consumers
+**Increased Availability and Reliability**
+
+## Challenges of going in the cloud
+**Reversibility and Portability Between Cloud Providers** What do I do if I want to change my Cloud provider ?
+**Control over my computing capabilities**  Public Clouds are centrally governed by Cloud providers
+**Security Vulnerabilities** AS we moved the data from a Private, totally mastered Datacenter to the Public/Private/Hybrid Cloud
+**Legal compliance** Depending of the location of the cloud Datacenter some legal issues can raise (such as maintaining the data within a geo)
+
 
 ##The Promises (Expectations) of the Cloud
 
 Cloud in the IT acception can be seen a style to deliver computing capabilities under several promises to external customers using Internet technologies :
 
-of computing in which scalable and elastic IT-enabled capabilities are delivered as a service ”
+**Instant Provisionning**
+  - Target end-users can provision IT capacity without administrative/human involvment
+
+**multitenancy (and resource pooling)**
+ - Different customers can consumes the same ressource exposed by the provider in total confidentiality
+
+**elasticity**
+ - It is the the automated ability of a cloud to transparently scale (UP and DOWN) IT resources to map the demand/request
+
+**measured usage**
+ - Usage of the platform is monitored and billing is (most of the time) aligned to the consumption of the resources
+
+**resiliency**
+- CLoud service enable architectural pattern allowing to avoid/reduce to a minimal time the potential disruption
+
+
+
+
+
+
 
 ##References
 
