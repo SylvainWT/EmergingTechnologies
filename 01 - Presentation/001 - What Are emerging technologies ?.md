@@ -5,9 +5,9 @@ Different concepts can be given to define and "Emerging technology"
 Among them a straightforward is to associate the emerging technologies with their capability to change a current ecosystem, the way of doing.
 
 Several characteristics can be sketched
- - The underlying promise to support a disruptive vision is a strong differenciator
+ - The underlying promise to support a disruptive vision is a strong differentiator
  - Most of the time they don't start from a blank page but rely on older technologies that are still incubating.
- - The domain they cover is fairly ...infinite (Hardware, Software, Cognitive/IA, Analytics, Medecine, Nanotechnology, Robotics, Aeronautics  ....)
+ - The domain they cover is fairly ...infinite (Hardware, Software, Cognitive/IA, Analytics, Medicine, Nanotechnology, Robotics, Aeronautics  ....)
  - Evolution of other technologies landscape can sometimes be a strong enabler (Acceleration due to the emergence of cloud).
  - It is a continuous journey that keeps accelerating
  - Not all of them will sustain an industrial life
@@ -30,10 +30,10 @@ Different models can be drawn to map the technology changes with its market reac
 
 ### Hype Cycle
 ![HypeCycle](./img/HypeCycle.png)
-This model draws the evolution of the interest for an emerging technologies
+This model draws the evolution of the interest for emerging technologies
 
  Phase 01 - **Innovation Trigger** : The technology emerges as a 'good idea'. At this stage it is usually a prototype, a promising vision.
-Different factors can explain  why a technology is triggered
+Different factors can explain why a technology is triggered
   - Disruption/Innovation : The level of disruption id brings to the market answering current concerns or envisioning future usage
   - The Brand/Team that support the technologies ( Commercial "R&D" from companies)
   - ...
@@ -49,20 +49,21 @@ Phase 05 - **Plateau of productivity** : Technology is now mature. The scope of 
 Because they are a simple representation of a 'Point Of View' on the technology, this type of curve is often used as communication mean (See Gartner Group and can be challenged. https://www.gartner.com/technology/research/methodologies/hype-cycle.jsp )
 
 
-As an example from 2015 ... 2018 (as per the Gartner Group Emerging technology HypeCycles perpective)
+As an example, from 2015 ... 2018 (as per the Gartner Group Emerging technology HypeCycles perpective)
  - IoT Platform have emerged and expectations are currently inflating
- - Autonomous vehicle after a peak of inflated expectation positionning they adoption within 5/10 years in 2015 seems now to be positionned since 2016 as arriving to maturity in more than 10 years, associated with disillussion (currently)
+ - Autonomous vehicle after a peak of inflated expectation positioning they adoption within 5/10 years in 2015 seems now to be positioned since 2016 as arriving to maturity in more than 10 years, associated with disillusion (currently)
  - Blockchain applications are challenged
  - Machine Learning (and its cognitive application) conserves it high expectations  
 
 ## Our 2-Days Journey
-The perspective for the Emerging Technologies for this course will be around the revolution on IT platforms required to support Software disrutption : **The Emerging Technology of the Cloud Computing. - A journey in the Cloud**.
+The perspective for the Emerging Technologies for this course will be around the revolution on IT platforms required to support Software disruption : **The Emerging Technology of the Cloud Computing. - A journey in the Cloud**.
 
 The objectives of this journey is to understand how Cloud transformed IT solution delivery:
   - Technology consumptions
   - Capabilities at our hands (Cognitive, Web, API, no SQL...)
 
 **What it is not :** A formal lecture on how disruptive the cloud is, blablaba... A course on How to code in nodeJS..
+
 **What it is:** Hand-on sessions in order to capture what is cloud, and how to operate it thru easy implementations around
   - A noSQL Data Repository
   - Cognitive capabilities (Real time translation, language detection, Personality profiling)
@@ -74,7 +75,7 @@ The objectives of this journey is to understand how Cloud transformed IT solutio
 ### Your deliverables :
   - A project implementing what you have learned : From a provided baseline, you will be able to enrich it with as many services you want. **_The more you have, the better is is!_**
   - a 10-pager max report stating
-    - your convictions/visions on  how cloud will disrupt IT delivery (Pros/cons)
+    - your convictions/visions on how cloud will disrupt IT delivery (Pros/cons)
     - how, as a team, you organize your work, the lessons learned
 
 ## An introduction – The App Revolution !
@@ -192,10 +193,10 @@ More organizational agility is required to adapt and evolve to successfully face
 Cloud in the IT acception can be seen a style to deliver computing capabilities under several promises to external customers using Internet technologies :
 
 **1 - Instant Provisionning**
-  - Target end-users can provision IT capacity without administrative/human involvment
+  - Target end-users can provision IT capacity without administrative/human involvement
 
 **2 - Multitenancy (and resource pooling)**
- - Different customers can consumes the same ressource exposed by the provider in total confidentiality
+ - Different customers can consumes the same resource exposed by the provider in total confidentiality
 
 **3 - Elasticity**
  - It is the the automated ability of a cloud to transparently scale (UP and DOWN) IT resources to map the demand/request
@@ -204,12 +205,33 @@ Cloud in the IT acception can be seen a style to deliver computing capabilities 
  - Usage of the platform is monitored and billing is (most of the time) aligned to the consumption of the resources
 
 **5 - Resiliency**
-- CLoud service enable architectural pattern allowing to avoid/reduce to a minimal time the potential disruption
+- Cloud service enable architectural pattern allowing to avoid/reduce to a minimal time the potential disruption
 
+## Cloud delivery Model
 
+A cloud delivery model represents a pre-packaged combination of IT resources offered by a cloud provider.
+Three common cloud delivery models have become widely established and formalized:
 
+**1 - Infrastructure-as-a-Service (IaaS)**
+Infrastructure as a Service (and specifically IBM’s acquisition of SoftLayer) was the cloud’s initial answer to the need for faster deployments, faster environment setup, etc… by abstracting the infrastructure from the customer.
 
+**2 - Platform-as-a-Service (PaaS)**
+In a large number of use cases, customers want to move even faster and don’t need to spend the time managing the platform (VM, OS, Middleware, Runtime).
 
+**3 - Software-as-a-Service (SaaS)**
+A software program positioned as a shared cloud service and made available as a “product”: For example : A mail Platform
+
+## Cloud deployment Model
+**1 - Public Cloud**
+A public cloud is a publicly accessible cloud environment owned by a third-party cloud provider.(Hint : The cloud we will used in these session is one of them)
+
+**2 - Private Cloud**
+ Private cloud is owned by a single customer/organization and usually hosted on Premises.
+ It is a way of addressing some challenges raised as risks above
+
+  A new evolution is the  **Virtual Private Cloud** – Also known as a “dedicated cloud” or “hosted cloud,” this model results in a self-contained cloud environment hosted and managed by a public cloud provider, and made available to a cloud consumer
+
+**3 - Hybrid Cloud**: The principle of reality :smiley: . It is a consolidation of the Pros and Cons of Public and Private Clouds, interacting with on Premises/legacy Data Centers of the customers
 
 
 ##References
@@ -217,7 +239,7 @@ Cloud in the IT acception can be seen a style to deliver computing capabilities 
 |Reference|Description|
 |---|---|
 |https://www.gartner.com   | Gartner Group - Emerging technologies - Hype Cycle |
-|https://www.ibm.com/blogs/cloud-computing/2014/03/a-brief-history-of-cloud-computing-3/   |  IBM - A brief hisoty of Cloud Computing |
+|https://www.ibm.com/blogs/cloud-computing/2014/03/a-brief-history-of-cloud-computing-3/   |  IBM - A brief history of Cloud Computing |
 |https://dictionary.cambridge.org/fr/dictionnaire/anglais/cloud   |Cloud Definition in the Cambridge Dictionnary   |
 ___
 Emerging Technologies - Paris Dauphine
